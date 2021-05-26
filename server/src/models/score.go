@@ -1,6 +1,6 @@
 package models
 
 type Score struct{
-	Player_id string `json:"player_id"`
-	Points string `json:"points"`
+	Player_Name string `json:"player_name"`
+	Points int16 `json:"points"`
 }
